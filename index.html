@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/script.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+  <title>#RGB</title>
+</head>
+<body>
+   <div id="container">
+
+    <div id="elementos" class="elementos">
+
+      <div>
+        <h1>Escolha sua cor (RGB)</h1>
+      </div>
+      <div>
+        <label for="InputRed" class="label">(R)-Vermelho</label>
+        <input type="range" name="red" id="InputRed" class="MeuInput" value="0" min="0" max="255">
+        <input type="text" id="idRed">
+      </div>
+      <div>
+        <label for="InputGreen" class="label" style="padding-right: 35px;">(G)-Verde</label>
+        <input type="range" name="green" id="InputGreen" class="MeuInput" value="0" min="0" max="255">
+        <input type="text" id="idGreen">
+      </div>
+      <div>
+        <label for="InputBlue" class="label" style="padding-right: 47px;">(B)-Azul</label>
+        <input type="range" name="blue" id="InputBlue" class="MeuInput" value="0" min="0" max="255">
+        <input type="text" id="idBlue">
+      </div>
+      <br>
+      <div>
+        <label id="RGB" class="rgb">R G B</label>
+      </div>
+
+    </div>
+
+   </div>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
